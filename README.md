@@ -30,7 +30,7 @@ The interpreter has eight operation registers:
 
 `proc` is the process register used to set the process exit code.
 
-### invisible
+### invisible:
 `counter` is the [Program Counter](https://en.wikipedia.org/wiki/Program_counter), this can be manually set using the `jump` or `goto` instructions.  everything before `,` is one counter, this also means that the program will ignore empty lines.
 
 `past` is the past value of the instruction pointer, used on `return` instruction

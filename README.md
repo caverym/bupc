@@ -58,6 +58,8 @@ The interpreter has operation 8 registers:
 
 `printl` prints empty line of one line of text.
 
+`return` goes back to function call.
+
 ## [Examples](examples/)
 hello world:
 ```

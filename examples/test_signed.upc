@@ -1,0 +1,21 @@
+add:,
+add sia sib,
+return,
+
+view:,
+view sib,
+return,
+
+set:,
+set sia 1,
+set sib -127,
+set sic 127,
+return,
+
+main:,
+goto set:,
+goto view:,
+goto add:,
+jump_neq sib sic 14,
+set proc 0,
+exit,

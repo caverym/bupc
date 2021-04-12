@@ -1,0 +1,11 @@
+proc:,
+set proc 0,
+return,
+
+main:,
+set uia 3,
+set uib 1,
+add uia uib,
+view uib,
+goto proc:,
+exit,

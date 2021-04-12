@@ -1,0 +1,21 @@
+add:,
+add uia uib,
+return,
+
+view:,
+view uib,
+return,
+
+set:,
+set uia 1,
+set uib 0,
+set uic 255,
+return,
+
+main:,
+goto set:,
+goto view:,
+goto add:,
+jump_neq uib uic 14,
+set proc 0,
+exit,

@@ -9,7 +9,7 @@ An assembly-like interpreted language written using Rust.
 The interpreter is currently extremely inefficient, as it is in early development and "whatever works" stage. If you would like to contribute, feel free to.
 
 ## Features
-* functions: 
+* Functions: 
 functions are possible, and required. The main function must be called `main:`
 
 * Conditionals:
@@ -22,7 +22,7 @@ there are eight operation registers (four signed, four unsigned), process regist
 
 ## Registers
 ### visible:
-The interpreter has operation 8 registers:
+The interpreter has eight operation registers:
 
 `uia, uib, uic, uid` are unsigned 8bit registers which can be used in your program.
 

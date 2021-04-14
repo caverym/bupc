@@ -1,4 +1,4 @@
-# Bunny Unit Processing Central
+# Bunny Unit Processing Central **DEEP!**
 
 (\ /)<br>
 ( . .)<br>
@@ -9,7 +9,7 @@ An assembly-like interpreted language written using Rust.
 The interpreter is currently extremely inefficient, as it is in early development and "whatever works" stage. If you would like to contribute, feel free to.
 
 ## Features
-* Functions: 
+* Functions: **NOT IMPLEMENTED IN DEEP REWRITE**
 functions are possible, and required. The main function must be called `main:`
 
 * Conditionals:
